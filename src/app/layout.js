@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Workshop@IROS2025"
+  title: "MACRAI-Workshop@IROS2025"
 };
 
 export default function RootLayout({ children }) {
