@@ -4,15 +4,8 @@ const Speakers = () => {
     return (
         <div>
             <div className="grid sm:grid-cols-4 grid-cols-2 mt-4 gap-y-6">
-                <div>
-                    <PersonAvatar
-                        name="Guido de Croon"
-                        image="/guido_de_croon.jpg"
-                        affiliation="Delft University of Technology"
-                        link="https://www.tudelft.nl/en/staff/g.c.h.e.decroon/"
-                    />
-                </div>
-                
+
+
                 <div>
                     <PersonAvatar
                         name="Marco Dorigo"
@@ -22,6 +15,24 @@ const Speakers = () => {
                     />
                 </div>
 
+                <div>
+                    <PersonAvatar
+                        name="Guido de Croon"
+                        image="/guido_de_croon.jpg"
+                        affiliation="Delft University of Technology"
+                        link="https://www.tudelft.nl/en/staff/g.c.h.e.decroon/"
+                    />
+                </div> 
+
+                <div>
+                    <PersonAvatar
+                        name="Wenlong Zhang"
+                        image="/wenlong_zhang.jpg"
+                        affiliation="Arizona State University"
+                        link="https://search.asu.edu/profile/2727367"
+                    />
+                </div>
+                
                 <div>
                     <PersonAvatar
                         name="Konstantin Yakovlev"
@@ -58,14 +69,7 @@ const Speakers = () => {
                     />
                 </div>
 
-                <div>
-                    <PersonAvatar
-                        name="Wenlong Zhang"
-                        image="/wenlong_zhang.jpg"
-                        affiliation="Arizona State University"
-                        link="https://search.asu.edu/profile/2727367"
-                    />
-                </div>
+
             </div>
             <p className="text-pretty mt-6">
                 <span className="font-bold">Note: </span>We are currently extending invitations to other eminent research scholars, so please stay tuned for updates.

@@ -24,7 +24,7 @@ const CallForPapers = () => {
                 <li>Submission Open: May 15th</li>
                 <li>Submission Deadline: Sept. 1st</li>
                 <li>Notifications of Acceptance: Sept. 5th</li>
-                <li>Camera-ready Deadline: Sept.12th</li>
+                <li>Camera-ready Deadline: Sept. 12th</li>
             </ul>
             {/* <p className="text-pretty mb-2">
                 <span className="font-bold">Workshop Objectives</span>

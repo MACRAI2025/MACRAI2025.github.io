@@ -12,7 +12,7 @@ const Schedule = () => {
             <li><span className="font-bold">11:20-11:40</span> - Invited talk (Di Guo): (tentative) embodied AI for human-robot interaction </li>
             <li><span className="font-bold">11:40-12:00</span> - Invited talk (Guido de Croon):   (tentative) deep learning-based planning and control for aerial robots </li>
             <li><span className="font-bold">12:00-12:20</span> - Invited talk (Wenlong Zhang): (tentative) decision-making and control for human-robot interaction </li>
-            <li><span className="font-bold">12:20-12:50</span> - Panel Discussion:  Discussion topic: how deep learning and generative AI can benefit multi-robot systems and human-robot interaction? </li>
+            <li><span className="font-bold">12:20-12:50</span> - Panel Discussion: how deep learning and generative AI can benefit multi-robot systems and human-robot interaction? </li>
         </ul>
     </div>
 }
