@@ -22,12 +22,12 @@ html {
   justify-content:center;
   height: 20em;
   color: white;
-  background-color: #01305f;
+  background-color: #e6f7ff;
 }
 footer{
   display: flex;
   justify-content:center;
   height: 10em;
   color: white;
-  background-color: #01305f;
+  background-color: #e6f7ff;
 }
