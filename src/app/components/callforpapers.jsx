@@ -29,8 +29,7 @@ const CallForPapers = () => {
             <p className="text-pretty mb-2">
               <span className="font-bold">Submission Link</span>
             </p>
-            <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
-                <li className="text-left">
+            <p className="mt-2 mb-8 text-pretty text-left">
                   Click here to submit your paper:&nbsp;
                   <a
                     href="https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/MACRAI&referrer=%5BHomepage%5D(%2F)#tab-your-consoles"
@@ -40,8 +39,7 @@ const CallForPapers = () => {
                   >
                     https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/MACRAI&referrer=%5BHomepage%5D(%2F)#tab-your-consoles
                   </a>
-                </li>
-            </ul>
+            </p>
             {/* <p className="text-pretty mb-2">
                 <span className="font-bold">Workshop Objectives</span>
             </p>
