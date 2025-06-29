@@ -8,10 +8,10 @@ const Speakers = () => {
 
                 <div>
                     <PersonAvatar
-                        name="Marco Dorigo"
-                        image="/marco_dorigo.jpg"
+                        name="Volker Strobel"
+                        image="/Volker Strobel.jpg"
                         affiliation="Université Libre de Bruxelles"
-                        link="https://iridia.ulb.ac.be/~mdorigo/HomePageDorigo/index.php"
+                        link="https://iridia.ulb.ac.be/~vstrobel/"
                     />
                 </div>
 
