@@ -24,14 +24,14 @@ const Speakers = () => {
                     />
                 </div> 
 
-                <div>
+                {/* <div>
                     <PersonAvatar
                         name="Wenlong Zhang"
                         image="/wenlong_zhang.jpg"
                         affiliation="Arizona State University"
                         link="https://search.asu.edu/profile/2727367"
                     />
-                </div>
+                </div> */}
                 
                 <div>
                     <PersonAvatar
@@ -39,6 +39,15 @@ const Speakers = () => {
                         image="/konstantin_yakovlev.jpg"
                         affiliation="FRC CSC RAS, AIRI, MIPT, HSE"
                         link="http://kyakovlev.me/"
+                    />
+                </div>
+
+                <div>
+                    <PersonAvatar
+                        name="J.Alonso-Mora"
+                        image="/javier_formal.jpg"
+                        affiliation="Delft University of Technology"
+                        link="https://www.tudelft.nl/staff/j.alonsomora/"
                     />
                 </div>
 
