@@ -37,7 +37,7 @@ const CallForPapers = () => {
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"
                   >
-                    https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/MACRAI&referrer=%5BHomepage%5D(%2F)#tab-your-consoles
+                    Submit your paper
                   </a>
             </p>
             {/* <p className="text-pretty mb-2">
