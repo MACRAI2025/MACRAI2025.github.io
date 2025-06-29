@@ -26,10 +26,10 @@ const CallForPapers = () => {
                 <li>Notifications of Acceptance: Sept. 5th</li>
                 <li>Camera-ready Deadline: Sept. 12th</li>
             </ul>
-            <p className="mt-2 mb-8 text-pretty text-left">
+            <p className="text-pretty mb-2">
               <span className="font-bold">Submission Link</span>
             </p>
-            <p className="mt-2 mb-8 text-pretty">
+            <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
               Click here to submit your paper:&nbsp;
               <a
                 href="https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/MACRAI&referrer=%5BHomepage%5D(%2F)#tab-your-consoles"
@@ -39,7 +39,7 @@ const CallForPapers = () => {
               >
                 https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/MACRAI&referrer=%5BHomepage%5D(%2F)#tab-your-consoles
               </a>
-            </p>
+            </ul>
             {/* <p className="text-pretty mb-2">
                 <span className="font-bold">Workshop Objectives</span>
             </p>
