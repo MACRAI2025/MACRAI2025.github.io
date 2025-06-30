@@ -5,13 +5,12 @@ const Speakers = () => {
         <div>
             <div className="grid sm:grid-cols-4 grid-cols-2 mt-4 gap-y-6">
 
-
                 <div>
                     <PersonAvatar
-                        name="Volker Strobel"
-                        image="/Volker Strobel.jpg"
-                        affiliation="Université Libre de Bruxelles"
-                        link="https://iridia.ulb.ac.be/~vstrobel/"
+                        name="J.Alonso-Mora"
+                        image="/javier_formal.jpg"
+                        affiliation="Delft University of Technology"
+                        link="https://www.tudelft.nl/staff/j.alonsomora/"
                     />
                 </div>
 
@@ -23,33 +22,6 @@ const Speakers = () => {
                         link="https://www.tudelft.nl/en/staff/g.c.h.e.decroon/"
                     />
                 </div> 
-
-                {/* <div>
-                    <PersonAvatar
-                        name="Wenlong Zhang"
-                        image="/wenlong_zhang.jpg"
-                        affiliation="Arizona State University"
-                        link="https://search.asu.edu/profile/2727367"
-                    />
-                </div> */}
-                
-                <div>
-                    <PersonAvatar
-                        name="Konstantin Yakovlev"
-                        image="/konstantin_yakovlev.jpg"
-                        affiliation="FRC CSC RAS, AIRI, MIPT, HSE"
-                        link="http://kyakovlev.me/"
-                    />
-                </div>
-
-                <div>
-                    <PersonAvatar
-                        name="J.Alonso-Mora"
-                        image="/javier_formal.jpg"
-                        affiliation="Delft University of Technology"
-                        link="https://www.tudelft.nl/staff/j.alonsomora/"
-                    />
-                </div>
 
                 <div>
                     <PersonAvatar
@@ -71,12 +43,42 @@ const Speakers = () => {
 
                 <div>
                     <PersonAvatar
+                        name="Konstantin Yakovlev"
+                        image="/konstantin_yakovlev.jpg"
+                        affiliation="FRC CSC RAS, AIRI, MIPT, HSE"
+                        link="http://kyakovlev.me/"
+                    />
+                </div>
+
+                <div>
+                    <PersonAvatar
                         name="Boyu Zhou"
                         image="/boyu_zhou.jpg"
                         affiliation="Southern University of Science and Technology"
                         link="https://sysu-star.com/people"
                     />
                 </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Volker Strobel"
+                        image="/Volker Strobel.jpg"
+                        affiliation="Université Libre de Bruxelles"
+                        link="https://iridia.ulb.ac.be/~vstrobel/"
+                    />
+                </div>
+
+
+                {/* <div>
+                    <PersonAvatar
+                        name="Wenlong Zhang"
+                        image="/wenlong_zhang.jpg"
+                        affiliation="Arizona State University"
+                        link="https://search.asu.edu/profile/2727367"
+                    />
+                </div> */}
+                
+
 
 
             </div>

@@ -72,20 +72,15 @@ export default function Home() {
         body={
           <div className="mt-4">
             <div className="grid sm:grid-cols-3 grid-cols-2 mt-4 place-items-center">
-              {/* <div className="flex flex-col items-center">
-                <img src="huawei.png" alt="Image 1" className="w-[8em] h-auto" />
-              </div> */}
+              <div className="flex flex-col items-center">
+                <img src="/nokov.png" alt="NOKOV MoCap" className="w-[8em] h-auto" />
+              </div>
               {/* <div className="flex flex-col items-center">
                 <img src="ocra.webp" alt="Image 1" className="w-[8em] h-auto" />
               </div>
               <div className="flex flex-col items-center">
                 <img src="dex_hand.png" alt="Image 1" className="w-[10em] h-auto" />
               </div> */}
-            </div>
-
-            <div className="text-pretty mt-4">
-              We are currently seeking sponsorship opportunities and would be delighted to discuss potential collaborations. Interested parties are kindly requested to contact us via email at  
-              <span className="text-blue-500"> changliucoe@pku.edu.cn</span> for further details.
             </div>
           </div>
         }
