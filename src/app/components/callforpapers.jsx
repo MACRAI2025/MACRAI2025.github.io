@@ -1,4 +1,7 @@
 const CallForPapers = () => {
+
+    const submitUrl ="https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/MACRAI&referrer=%5BHomepage%5D(%2F)#tab-your-consoles";
+    const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(submitUrl)}`;
     return (
         <div className="text-justify">
             
@@ -27,7 +30,11 @@ const CallForPapers = () => {
                 <li>Camera-ready Deadline: Sept. 12th</li>
             </ul>
             <p className="text-pretty mb-2">
-              <span className="font-bold">Submission Link</span>
+              <span className="font-bold">Submission Guidelines</span>
+            </p>
+            <p className="mt-2 mb-4 text-pretty text-left">
+                We solicit extended abstracts up to 3 pages (excluding references and supplementary material).  
+                All accepted contributions will be presented during the interactive poster sessions.
             </p>
             <p className="mt-2 mb-8 text-pretty text-left">
                   Click here to submit your paper:&nbsp;
@@ -40,6 +47,15 @@ const CallForPapers = () => {
                     Submit your paper
                   </a>
             </p>
+
+        <div className="flex items-center space-x-4 mb-8">
+          <span className="font-bold text-pretty">Scan to Submit:</span>
+          <img
+            src={qrUrl}
+            alt="QR code to submit"
+            className="w-24 h-24 border"
+          />
+        </div>
             {/* <p className="text-pretty mb-2">
                 <span className="font-bold">Workshop Objectives</span>
             </p>
