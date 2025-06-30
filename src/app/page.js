@@ -74,7 +74,7 @@ export default function Home() {
             <div className="grid sm:grid-cols-3 grid-cols-2 mt-4 place-items-center">
               <div className="flex flex-col items-start">
                 <img src="/nokov.png" alt="NOKOV MoCap" className="w-[20em] h-auto" />
-                <span className="mt-2 text-sm font-bold">NOKOV MoCap</span>
+                <span className="mt-2 text-sm font-bold text-center">NOKOV MoCap</span>
               </div>
               {/* <div className="flex flex-col items-center">
                 <img src="ocra.webp" alt="Image 1" className="w-[8em] h-auto" />
