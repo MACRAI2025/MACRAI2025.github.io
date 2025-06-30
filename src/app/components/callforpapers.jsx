@@ -36,7 +36,7 @@ const CallForPapers = () => {
                 We solicit extended abstracts up to 3 pages (excluding references and supplementary material).  
                 All accepted contributions will be presented during the interactive poster sessions.
             </p>
-            <p className="mt-2 mb-8 text-pretty text-left">
+            <p className="mt-2 mb-8 font-bold text-pretty text-left">
                   Click here to submit your paper:&nbsp;
                   <a
                     href="https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/MACRAI&referrer=%5BHomepage%5D(%2F)#tab-your-consoles"
