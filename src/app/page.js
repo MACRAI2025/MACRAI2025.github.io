@@ -72,10 +72,19 @@ export default function Home() {
         body={
           <div className="mt-4">
             <div className="grid sm:grid-cols-3 grid-cols-2 mt-4">
-              <div className="flex flex-col items-center">
+              
+              {/* --- 修改后的代码块开始 --- */}
+              <a 
+                href="https://en.nokov.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="flex flex-col items-center"
+              >
                 <img src="/nokov.png" alt="NOKOV MoCap" className="w-[20em] h-auto" />
                 <span className="mt-2 text-sm font-bold text-center">NOKOV MoCap</span>
-              </div>
+              </a>
+              {/* --- 修改后的代码块结束 --- */}
+
               {/* <div className="flex flex-col items-center">
                 <img src="ocra.webp" alt="Image 1" className="w-[8em] h-auto" />
               </div>
@@ -85,7 +94,8 @@ export default function Home() {
             </div>
           </div>
         }
-        id="sponsors" />
+        id="sponsors" 
+      />
       <div className="fixed bottom-6 right-6">
         <button id="backToTop" className="bg-[#01305f] hover:bg-[#234880] text-white font-bold py-4 px-4 rounded-full shadow-lg" onClick={() => topClick()}>
           <svg width="20" height="20" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
