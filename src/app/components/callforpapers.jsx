@@ -66,11 +66,11 @@ const CallForPapers = () => {
                 href="https://www.ieee.org/conferences/publishing/templates"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline ml-1"
+                className="text-blue-600 hover:underline"
             >
-                Click here to view the submission templates
+                Click here to view the submission templates.
             </a>
-            &nbsp;(opens in a new window).
+            &nbsp;
         </p>
             {/* <p className="text-pretty mb-2">
                 <span className="font-bold">Workshop Objectives</span>
