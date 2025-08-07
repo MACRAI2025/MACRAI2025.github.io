@@ -66,7 +66,7 @@ const CallForPapers = () => {
                 href="https://www.ieee.org/conferences/publishing/templates"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
+                className="text-blue-600 hover:underline ml-1 font-bold"
             >
                 Click here to view the submission templates.
             </a>
