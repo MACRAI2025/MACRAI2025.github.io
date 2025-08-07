@@ -56,6 +56,22 @@ const CallForPapers = () => {
             className="w-24 h-24 border"
           />
         </div>
+
+        <p className="text-pretty mb-2">
+            <span className="font-bold">Submission Template & Link</span>
+        </p>
+        <p className="mt-2 mb-8 text-pretty text-left">
+            All submissions must follow the official IEEE conference format. 
+            <a
+                href="https://www.ieee.org/conferences/publishing/templates"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline ml-1"
+            >
+                Click here to view the submission templates
+            </a>
+            &nbsp;(opens in a new window).
+        </p>
             {/* <p className="text-pretty mb-2">
                 <span className="font-bold">Workshop Objectives</span>
             </p>
