@@ -29,7 +29,7 @@ const Schedule = () => {
           </tr>
           <tr className="border-t bg-gray-50">
             <td className="px-4 py-2 whitespace-nowrap">15:00–15:25</td>
-            <td className="px-4 py-2">Invited talk (Guillaume Adrien Sartoretti)</td>
+            <td className="px-4 py-2">Invited talk (Cao Yuhong)</td>
             <td className="px-4 py-2">High-Dimensional Multi-Agent Robot Learning</td>
           </tr>
           <tr className="border-t">

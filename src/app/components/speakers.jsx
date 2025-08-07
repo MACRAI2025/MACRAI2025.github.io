@@ -25,10 +25,10 @@ const Speakers = () => {
 
                 <div>
                     <PersonAvatar
-                        name="Guillaume Adrien Sartoretti"
-                        image="/guillaume_sartoretti.jpg"
+                        name="Cao Yuhong"
+                        image="/Cao Yuhong.jpg"
                         affiliation="National University of Singapore"
-                        link="https://www.marmotlab.org/"
+                        link="https://www.yuhongcao.online/"
                     />
                 </div>
 
