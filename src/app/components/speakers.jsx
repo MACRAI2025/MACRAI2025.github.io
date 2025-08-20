@@ -72,7 +72,7 @@ const Speakers = () => {
                     <PersonAvatar
                         name="Siqi Zhou"
                         image="/Siqi Zhou.jpg"
-                        affiliation="Technical University of Munich(TUM)"
+                        affiliation="Technical University of Munich"
                         link="https://siqizhou.com/"
                     />
                 </div>
