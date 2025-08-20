@@ -68,6 +68,14 @@ const Speakers = () => {
                     />
                 </div>
 
+                <div>
+                    <PersonAvatar
+                        name="Siqi Zhou"
+                        image="/Siqi Zhou.jpg"
+                        affiliation="Technical University of Munich(TUM)"
+                        link="https://siqizhou.com/"
+                    />
+                </div>
 
                 {/* <div>
                     <PersonAvatar

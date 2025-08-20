@@ -17,7 +17,7 @@ const Header = ()=>{
                     <span className={highlight}>M</span>ulti-<span className={highlight}>A</span>gent <span className={highlight}>C</span>ooperative Systems and Swarm <span className={highlight}>R</span>obotics in the Era of Generative <span className={highlight}>AI</span>
                 </div>
                 <div className="text-[0.55em]  text-[#03717D] text-center mt-5">
-                    Sun 19th - Sat 25th October, 2025
+                    Monday, 20th Oct. 2025, 14:00–18:00 (UTC+8)
                 </div>
                 <div className="text-[0.55em]  text-[#03717D] text-center ">
                     Hangzhou International Expo Center, Hangzhou, CHINA
