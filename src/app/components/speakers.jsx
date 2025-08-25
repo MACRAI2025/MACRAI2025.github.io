@@ -25,15 +25,6 @@ const Speakers = () => {
 
                 <div>
                     <PersonAvatar
-                        name="Cao Yuhong"
-                        image="/Cao Yuhong.jpg"
-                        affiliation="National University of Singapore"
-                        link="https://www.yuhongcao.online/"
-                    />
-                </div>
-
-                <div>
-                    <PersonAvatar
                         name="Di Guo"
                         image="/di_guo.jpg"
                         affiliation="Beijing University of Posts and Telecommunications"
@@ -49,7 +40,7 @@ const Speakers = () => {
                         link="http://kyakovlev.me/"
                     />
                 </div>
-
+               
                 <div>
                     <PersonAvatar
                         name="Boyu Zhou"
@@ -57,7 +48,7 @@ const Speakers = () => {
                         affiliation="Southern University of Science and Technology"
                         link="https://sysu-star.com/people"
                     />
-                </div>
+                </div>  
 
                 <div>
                     <PersonAvatar
@@ -74,6 +65,15 @@ const Speakers = () => {
                         image="/Siqi Zhou.jpg"
                         affiliation="Technical University of Munich"
                         link="https://siqizhou.com/"
+                    />
+                </div>
+
+                <div>
+                    <PersonAvatar
+                        name="Cao Yuhong"
+                        image="/Cao Yuhong.jpg"
+                        affiliation="National University of Singapore"
+                        link="https://www.yuhongcao.online/"
                     />
                 </div>
 

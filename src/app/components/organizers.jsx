@@ -9,7 +9,7 @@ const Organizers = ()=>{
             <PersonAvatar name="Yao Mu" image="/yao_mu.jpg" affiliation={"Assistant Professor, Shanghai Jiao Tong University, China"} link={"https://yaomarkmu.github.io/"}/> 
             <PersonAvatar name="Haibao Yu" image="/haibao_yu.jpg" affiliation={"Ph.D. Student, The University of Hong Kong, China"} link={"https://www.linkedin.com/in/haibao-yu-152221118"}/> 
             <PersonAvatar name="Dzmitry Tsetserukou" image="/dzmitry_tsetserukou.jpg" affiliation={"Associate Professor, Skolkovo Institute of Science and Technology, Russia"} link={"https://new.skoltech.ru/en/persons/tsetserukou-dzmitry"} />
-            <PersonAvatar name="Changliu Liu" image="/changliu_liu.jpg" affiliation={"Assistant Professor, Carnegie Mellon University, USA"} link={"https://www.ri.cmu.edu/ri-faculty/changliu-liu/"}/>
+            <PersonAvatar name="Changliu Liu" image="/changliu_liu.jpg" affiliation={"Associate Professor, Carnegie Mellon University, USA"} link={"https://www.ri.cmu.edu/ri-faculty/changliu-liu/"}/>
             <PersonAvatar name="Oleg Sautenkov" image="/oleg_sautenkov.jpg" affiliation={"Ph.D. Student, Skolkovo Institute of Science and Technology, Russia"} link={"https://sautenich.github.io/"}/> 
         </div>
 
