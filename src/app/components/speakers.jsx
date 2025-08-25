@@ -52,19 +52,19 @@ const Speakers = () => {
 
                 <div>
                     <PersonAvatar
-                        name="Volker Strobel"
-                        image="/Volker Strobel.jpg"
-                        affiliation="Université Libre de Bruxelles"
-                        link="https://iridia.ulb.ac.be/~vstrobel/"
+                        name="Siqi Zhou"
+                        image="/Siqi Zhou.jpg"
+                        affiliation="Technical University of Munich"
+                        link="https://siqizhou.com/"
                     />
                 </div>
 
                 <div>
                     <PersonAvatar
-                        name="Siqi Zhou"
-                        image="/Siqi Zhou.jpg"
-                        affiliation="Technical University of Munich"
-                        link="https://siqizhou.com/"
+                        name="Volker Strobel"
+                        image="/Volker Strobel.jpg"
+                        affiliation="Université Libre de Bruxelles"
+                        link="https://iridia.ulb.ac.be/~vstrobel/"
                     />
                 </div>
 
