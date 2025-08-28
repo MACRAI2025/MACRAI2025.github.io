@@ -7,6 +7,15 @@ const Speakers = () => {
 
                 <div>
                     <PersonAvatar
+                        name="Guido de Croon"
+                        image="/guido_de_croon.jpg"
+                        affiliation="Delft University of Technology"
+                        link="https://www.tudelft.nl/en/staff/g.c.h.e.decroon/"
+                    />
+                </div> 
+                
+                <div>
+                    <PersonAvatar
                         name="J.Alonso-Mora"
                         image="/javier_formal.jpg"
                         affiliation="Delft University of Technology"
@@ -14,14 +23,6 @@ const Speakers = () => {
                     />
                 </div>
 
-                <div>
-                    <PersonAvatar
-                        name="Guido de Croon"
-                        image="/guido_de_croon.jpg"
-                        affiliation="Delft University of Technology"
-                        link="https://www.tudelft.nl/en/staff/g.c.h.e.decroon/"
-                    />
-                </div> 
 
                 <div>
                     <PersonAvatar
