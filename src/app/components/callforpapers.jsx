@@ -25,9 +25,9 @@ const CallForPapers = () => {
             <ul className="list-disc list-inside space-y-2 mt-2 mb-8 ml-4">
                 <li>Call for Papers/Demos: May. 10th</li>
                 <li>Submission Open: May. 15th</li>
-                <li>Submission Deadline: Sept. 28th</li>
-                <li>Notifications of Acceptance: Oct. 7th</li>
-                <li>Camera-ready Deadline: Oct. 14th</li>
+                <li>Submission Deadline: <del>Sept. 28th</del> Oct. 7th</li>
+                <li>Notifications of Acceptance: Oct. 14th</li>
+                <li>Camera-ready Deadline: Oct. 17th</li>
             </ul>
             <p className="text-pretty mb-2">
               <span className="font-bold">Submission Guidelines</span>
