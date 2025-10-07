@@ -40,7 +40,7 @@ const Schedule = () => {
           <tr className="border-t bg-gray-50">
             <td className="px-4 py-2 whitespace-nowrap">16:05–16:30</td>
             <td className="px-4 py-2">Invited talk (Di Guo)</td>
-            <td className="px-4 py-2"> TBD</td>
+            <td className="px-4 py-2">LLM-powered Multi-agent System and Proactive Collaboration</td>
           </tr>
           <tr className="border-t">
             <td className="px-4 py-2 whitespace-nowrap">16:30–16:55</td>
