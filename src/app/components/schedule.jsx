@@ -61,7 +61,7 @@ const Schedule = () => {
           <tr className="border-t bg-gray-50">
             <td className="px-4 py-2 whitespace-nowrap">16:30–16:50</td>
             <td className="px-4 py-2">Invited talk (Siqi Zhou)</td>
-            <td className="px-4 py-2"> TBD</td>
+            <td className="px-4 py-2">Aerial Swarm: From Methods to Tools Enabling Safe Coordination and Language-Based Interaction</td>
           </tr>
 
           <tr className="border-t">
