@@ -21,7 +21,7 @@ const Schedule = () => {
           <tr className="border-t">
             <td className="px-4 py-2 whitespace-nowrap">14:10–14:30</td>
             <td className="px-4 py-2">Invited talk (Guido de Croon)</td>
-            <td className="px-4 py-2"> TBD</td>
+            <td className="px-4 py-2">Swarms of tiny drones: from simulation to reality</td>
           </tr>
 
           <tr className="border-t bg-gray-50">
