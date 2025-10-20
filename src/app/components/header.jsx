@@ -20,7 +20,7 @@ const Header = ()=>{
                     Venue: 311D
                 </div>
                 <div className="text-[0.55em]  text-[#03717D] text-center ">
-                    Monday, 20th Oct. 2025, 14:00–18:00 (UTC+8)
+                    Monday, 20th Oct. 2025, 13:00–17:00 (UTC+8)
                 </div>
                 <div className="text-[0.55em]  text-[#03717D] text-center ">
                     Hangzhou International Expo Center, Hangzhou, CHINA
