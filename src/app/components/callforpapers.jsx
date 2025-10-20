@@ -2,6 +2,26 @@ const CallForPapers = () => {
 
     const submitUrl ="https://openreview.net/group?id=IEEE.org/IROS/2025/Workshop/MACRAI&referrer=%5BHomepage%5D(%2F)#tab-your-consoles";
     const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(submitUrl)}`;
+    const acceptedPapers = [
+        "BiAssemble: Learning Collaborative Affordance for Bimanual Geometric Assembly.",
+        "Decentralized Aerial Manipulation of a Cable-Suspended Load Using Multi-Agent Reinforcement Learning.",
+        "Distributed Multi-Robot Ergodic Coverage Control for Estimating Time-Varying Spatial Processes.",
+        "HMA-SAR: Multi-Agent Search and Rescue for Unknown Located Dynamic Targets in Completely Unknown Environments.",
+        "RVC-NMPC: Mutual Collision Avoidance for Agile UAV Flight via Nonlinear Model Predictive Control with Reciprocal Velocity Constraints.",
+        "CAT-ORA: Collision-Aware Time-Optimal Formation Reshaping for Efficient Robot Coordination in 3D Environments.",
+        "Subsystem Safety Filtering: A Unified Framework for Safe Shared Control in Coupled Robotic Systems.",
+        "LLM-Enhanced Constraint Programming for Task Planning in Heterogeneous Multi-Agent Systems.",
+        "Cooperative Multi-Finger Manipulation of Force-Sensitive Objects via Graph Rigidity.",
+        "Swarming tight interactions for achieving resistibility of large robotic systems in real-world conditions.",
+        "Incorporating Indirect Reciprocity into Reinforcement Learning for Multi-Robot Collaboration in Mixed-Motive Stochastic Games.",
+        "Accelerating Multi-Agent Reinforcement Learning with LLM-Generated Reward Patches.",
+        "SyncMap: Predictive State Bridging for Consistent BEV Sharing in Multi-Vehicle V2X Collaboration.",
+        "Online automatic code generation for robot swarms: LLMs and self-organizing hierarchy.",
+        "Voronoi-Based Multi-Robot Autonomous Exploration in Unknown Environments via Randomized SOM-Based Q-Learning.",
+        "MorphoNavi: Aerial-Ground Robot Navigation with Object Oriented Mapping in Digital Twin.",
+        "Renderer-Aware Cramér-Rao Bounds for Camera Pose on SE(3).",
+        "Swarm Control via ODE-Driven Optimal Transport–Based Renormalization Group Flow.",
+        ];
     return (
         <div className="text-justify">
             
@@ -72,6 +92,14 @@ const CallForPapers = () => {
             </a>
             &nbsp;
         </p>
+        <p className="text-pretty mb-2">
+                <span className="font-bold">Poster</span>
+        </p>
+        <ol className="list-decimal list-inside space-y-2 mt-2 mb-8 ml-4">
+                {acceptedPapers.map((title, index) => (
+                    <li key={index}>{title}</li>
+                ))}
+        </ol>
             {/* <p className="text-pretty mb-2">
                 <span className="font-bold">Workshop Objectives</span>
             </p>
