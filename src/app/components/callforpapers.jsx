@@ -95,11 +95,11 @@ const CallForPapers = () => {
         <p className="text-pretty mb-2">
                 <span className="font-bold">Poster</span>
         </p>
-        <ol className="list-decimal list-inside space-y-2 mt-2 mb-8 ml-4">
+        <ul className="list-none list-inside space-y-2 mt-2 mb-8 ml-4">
                 {acceptedPapers.map((title, index) => (
                     <li key={index}>{title}</li>
                 ))}
-        </ol>
+        </ul>
             {/* <p className="text-pretty mb-2">
                 <span className="font-bold">Workshop Objectives</span>
             </p>
