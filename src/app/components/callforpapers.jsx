@@ -182,10 +182,10 @@ const CallForPapers = () => {
             <ul className="list-none space-y-6 mt-2 mb-8"> {/* 使用 space-y-6 增加条目间距 */}
                 {acceptedPapersData.map((paper, index) => (
                     <li key={index}>
-                        {/* 论文标题 */}
-                        <p className="text-lg">{paper.title}</p>
-                        {/* 作者，使用 text-gray-600 设置颜色，类似图1 */}
-                        <p className="text-gray-600 mt-1">{paper.authors}</p>
+                        {/* 论文标题：移除了 text-lg，让它和正文一样大。同时加上 font-bold 保持标题的强调效果 */}
+                        <p className="font-bold">{paper.title}</p>
+                        {/* 作者：添加了 text-sm 使其字体比标题更小 */}
+                        <p className="text-sm text-gray-600 mt-1">{paper.authors}</p>
                         {/* PDF链接，使用 Tailwind CSS 添加类似按钮的样式 */}
                         <div className="mt-2">
                             <a 
@@ -196,8 +196,6 @@ const CallForPapers = () => {
                             >
                                 PDF
                             </a>
-                            {/* 如果未来有视频链接，可以仿照这个样式添加 */}
-                            {/* <a href="#" className="ml-2 inline-block border border-gray-400 rounded px-3 py-1 text-sm text-gray-700 hover:bg-gray-100">video</a> */}
                         </div>
                     </li>
                 ))}
