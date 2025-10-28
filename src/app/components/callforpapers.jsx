@@ -13,92 +13,92 @@ const CallForPapers = () => {
         {
             title: "BiAssemble: Learning Collaborative Affordance for Bimanual Geometric Assembly.",
             authors: "Yan Shen, Ruihai Wu, Yubin Ke, Xinyuan Song, Zeyi Li, Xiaoqi Li, Hongwei Fan, Haoran Lu, Hao Dong",
-            pdfLink: "/2_BiAssemble_Learning_Collabor (1).pdf" 
+            pdfLink: "/papers/2_BiAssemble_Learning_Collabor (1).pdf" 
         },
         {
             title: "Decentralized Aerial Manipulation of a Cable-Suspended Load Using Multi-Agent Reinforcement Learning.",
             authors: "Jack Zeng, Andreu Matoses Gimenez, Eugene Vinitsky, Javier Alonso-Mora, Sihao Sun",
-            pdfLink: "/3_Decentralized_Aerial_Manipul (1).pdf" 
+            pdfLink: "/papers/3_Decentralized_Aerial_Manipul (1).pdf" 
         },
         {
             title: "Distributed Multi-Robot Ergodic Coverage Control for Estimating Time-Varying Spatial Processes.",
             authors: "Mattia Mantovani, Mattia Catellani and Lorenzo Sabattini",
-            pdfLink: "/4_Distributed_Multi_Robot_Ergo (1).pdf" 
+            pdfLink: "/papers/4_Distributed_Multi_Robot_Ergo (1).pdf" 
         },
         {
             title: "HMA-SAR: Multi-Agent Search and Rescue for Unknown Located Dynamic Targets in Completely Unknown Environments.",
             authors: "Xiao Cao",
-            pdfLink: "/5_HMA_SAR_Multi_Agent_Search_a (1).pdf" 
+            pdfLink: "/papers/5_HMA_SAR_Multi_Agent_Search_a (1).pdf" 
         },
         {
             title: "RVC-NMPC: Mutual Collision Avoidance for Agile UAV Flight via Nonlinear Model Predictive Control with Reciprocal Velocity Constraints.",
             authors: "Vít Krátký, Robert Pěnička, Parakh Manoj Gupta, and Martin Saska",
-            pdfLink: "/6_RVC_NMPC_Mutual_Collision_Av.pdf" 
+            pdfLink: "/papers/6_RVC_NMPC_Mutual_Collision_Av.pdf" 
         },
         {
             title: "CAT-ORA: Collision-Aware Time-Optimal Formation Reshaping for Efficient Robot Coordination in 3D Environments.",
             authors: "Vit Kratky, Robert Penicka , Jiri Horyna , Petr Stibinger , Tomas Baca , Matej Petrlik ,Petr Stepan , Martin Saska",
-            pdfLink: "/7_CAT_ORA_Collision_Aware_Time.pdf" 
+            pdfLink: "/papers/7_CAT_ORA_Collision_Aware_Time.pdf" 
         },
         {
             title: "Subsystem Safety Filtering: A Unified Framework for Safe Shared Control in Coupled Robotic Systems.",
             authors: "Federico Pizarro Bejarano, Lukas Brunke, and Angela P. Schoellig",
-            pdfLink: "/8_Subsystem_Safety_Filtering_A.pdf" 
+            pdfLink: "/papers/8_Subsystem_Safety_Filtering_A.pdf" 
         },
         {
             title: "LLM-Enhanced Constraint Programming for Task Planning in Heterogeneous Multi-Agent Systems.",
             authors: "Jozsef Palmieri, Martina Lippi, Alessandro Marino",
-            pdfLink: "/9_LLM_Enhanced_Constraint_Prog.pdf" 
+            pdfLink: "/papers/9_LLM_Enhanced_Constraint_Prog.pdf" 
         },
         {
             title: "Cooperative Multi-Finger Manipulation of Force-Sensitive Objects via Graph Rigidity.",
             authors: "Xinan Rong, Changhuang Wan, Aochen He, Xiaolong Li and Gangshan Jing",
-            pdfLink: "/10_Cooperative_Multi_Finger_Ma (2).pdf" 
+            pdfLink: "/papers/10_Cooperative_Multi_Finger_Ma (2).pdf" 
         },
         {
             title: "Swarming tight interactions for achieving resistibility of large robotic systems in real-world conditions.",
             authors: "Jiri Horyna, Martin Saska",
-            pdfLink: "/11_Swarming_tight_interactions (3).pdf" 
+            pdfLink: "/papers/11_Swarming_tight_interactions (3).pdf" 
         },
         {
             title: "Incorporating Indirect Reciprocity into Reinforcement Learning for Multi-Robot Collaboration in Mixed-Motive Stochastic Games.",
             authors: "Yuxin Geng, Xingru Chen",
-            pdfLink: "/12_Incorporating_Indirect_Reci (2).pdf" 
+            pdfLink: "/papers/12_Incorporating_Indirect_Reci (2).pdf" 
         },
         {
             title: "Accelerating Multi-Agent Reinforcement Learning with LLM-Generated Reward Patches.",
             authors: "Bowen Lv",
-            pdfLink: "/13_Accelerating_Multi_Agent_Re (3).pdf" 
+            pdfLink: "/papers/13_Accelerating_Multi_Agent_Re (3).pdf" 
         },
         {
             title: "SyncMap: Predictive State Bridging for Consistent BEV Sharing in Multi-Vehicle V2X Collaboration.",
             authors: "Wei Duan, Xiao Wu, Yibo Wang, Minghao Yu, Kai Liu, and Jian Zhou",
-            pdfLink: "/14_SyncMap_Predictive_State_Br (3).pdf" 
+            pdfLink: "/papers/14_SyncMap_Predictive_State_Br (3).pdf" 
         },
         {
             title: "Online automatic code generation for robot swarms: LLMs and self-organizing hierarchy.",
             authors: "Weixu Zhu, Marco Dorigo, Mary Katherine Heinrich",
-            pdfLink: "/15_Online_automatic_code_gener.pdf" 
+            pdfLink: "/papers/15_Online_automatic_code_gener.pdf" 
         },
         {
             title: "Voronoi-Based Multi-Robot Autonomous Exploration in Unknown Environments via Randomized SOM-Based Q-Learning.",
             authors: "Gordei Verbii",
-            pdfLink: "/17_Voronoi_Based_Multi_Robot_A.pdf" 
+            pdfLink: "/papers/17_Voronoi_Based_Multi_Robot_A.pdf" 
         },
         {
             title: "MorphoNavi: Aerial-Ground Robot Navigation with Object Oriented Mapping in Digital Twin.",
             authors: "Sausar Karaf, Mikhail Martynov, Oleg Sautenkov, Zhanibek Darush, Dzmitry Tsetserukou",
-            pdfLink: "/18_MorphoNavi_Aerial_Ground_Ro.pdf" 
+            pdfLink: "/papers/18_MorphoNavi_Aerial_Ground_Ro.pdf" 
         },
         {
             title: "Multi-Agent Pose Uncertainty: A Differentiable Rendering Cramér-Rao Bound.",
             authors: "Arun Muthukkumar",
-            pdfLink: "/19_Multi_Agent_Pose_Uncertaint.pdf" 
+            pdfLink: "/papers/19_Multi_Agent_Pose_Uncertaint.pdf" 
         },
         {
             title: "Swarm Control via ODE-Driven Optimal Transport-Based Renormalization Group Flow.",
             authors: "Gordei Verbii",
-            pdfLink: "/20_Swarm_Control_via_ODE_Drive (3).pdf" 
+            pdfLink: "/papers/20_Swarm_Control_via_ODE_Drive (3).pdf" 
         },
     ];
 
