@@ -182,11 +182,11 @@ const CallForPapers = () => {
             <ul className="list-none space-y-6 mt-2 mb-8"> {/* 使用 space-y-6 增加条目间距 */}
                 {acceptedPapersData.map((paper, index) => (
                     <li key={index}>
-                        {/* 论文标题：移除了 text-lg，让它和正文一样大。同时加上 font-bold 保持标题的强调效果 */}
-                        <p className="font-bold">{paper.title}</p>
-                        {/* 作者：添加了 text-sm 使其字体比标题更小 */}
+                        {/* 论文标题：移除了 font-bold，恢复为普通字体 */}
+                        <p>{paper.title}</p>
+                        {/* 作者：保持 text-sm 的小号字体 */}
                         <p className="text-sm text-gray-600 mt-1">{paper.authors}</p>
-                        {/* PDF链接，使用 Tailwind CSS 添加类似按钮的样式 */}
+                        {/* PDF链接 */}
                         <div className="mt-2">
                             <a 
                                 href={paper.pdfLink} 
